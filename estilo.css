@@ -1,0 +1,16 @@
+    a{
+    color:red; 
+    text-decoration: none;
+    font-size: 18px;
+    }
+   h1{
+        font-family: helvetica, sans-serif;
+    }
+   /* o id só pode ser utilizado uma única vez
+   */
+    #segundo{
+         color: black;
+    }
+    a.link{
+        color: green
+    }
