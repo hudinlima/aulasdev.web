@@ -10,101 +10,104 @@
         <link rel="stylesheet" type="text/css" href="estilo.css" />
         <link rel="stylesheet" type="text/css" href="class2.css" />
         <link rel="stylesheet" type="text/css" href="class3.css" />
+        <link rel="stylesheet" type="text/css" href="estilo2.css" />
 
     </head>
 
     <body>
-        <h1> Meu site Hudson Lima páginas </h1>
-        <p> Esse é um paragrafo para meu primeiro <em>site</em>. <br/> e aqui será minha <strong>segunda</strong> linha do paragrafo. </p>
 
-        <!-- Inicio do formulário -->   
-       
-        <h1> Preencha o Formulário</h1>
-        <dl>
-            <dt> Campos Obrigatorios </dt>
-            <dd> Preencha todos os campos</dd>
-        <br/>
-        <form>
-                <legend>Sexo</legend>
-              <p>
-                <input type="radio" name="size" id="size_1" value="small" />
-                <label for="size_1">Masculino</label>
-              </p>
-              <p>
-                <input type="radio" name="size" id="size_2" value="medium" />
-                <label for="size_2">Feminino</label>
-              </p>
-          </form>
-            <br/>     
+    <div id ="wrap" >
+            <h1> Meu site Hudson Lima páginas </h1>
+            <p> Esse é um paragrafo para meu primeiro <em>site</em>. <br/> e aqui será minha <strong>segunda</strong> linha do paragrafo. </p>
 
-          <form> 
-            <dd> Me enviar informações por email</dd>
-            <p>
-              <label for="taste_1">Sim</label>
-              <input type="checkbox" id="taste_1" name="taste_cherry" value="1">
-            </p>
-           
-          </form>
+            <!-- Inicio do formulário -->   
+        
+            <h1> Preencha o Formulário</h1>
+            <dl>
+                <dd> Campos Obrigatorios </dd>
+                <dd> Preencha todos os campos</dd>
             <br/>
-            <form action="/pagina-processa-dados-do-form" method="post">
-                <div>
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>
-                <div>
-                    <label for="Cpf">CPF:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>
-                <div>
-                    <label for="endereço">endereço:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>    
-                <div>
-                    <label for="rua">rua:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>    
-                <div>
-                    <label for="bairro">bairro:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>    
-                <div>
-                    <label for="numero">numero:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>    
-                <div>
-                    <label for="referencia">referencia:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>   
-                <div>
-                    <label for="">cep:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>    
-                <div>
-                    <label for="cidade">Cidade:</label>
-                    <input type="text" id="name" />
-                </div>
-            <br/>   
-                <div>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" />
-                </div>
-            <br/>    
+            <form>
+                    <legend>Sexo</legend>
+                <p>
+                    <input type="radio" name="size" id="size_1" value="small" />
+                    <label for="size_1">Masculino</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size_2" value="medium" />
+                    <label for="size_2">Feminino</label>
+                </p>
+            </form>
+                <br/>     
+
+            <form> 
+                <dd> Me enviar informações por email</dd>
+                <p>
+                <label for="taste_1">Sim</label>
+                <input type="checkbox" id="taste_1" name="taste_cherry" value="1">
+                </p>
+            
+            </form>
+                <br/>
+                <form action="/pagina-processa-dados-do-form" method="post">
                     <div>
-                        <label for="msg">Mensagem:</label>
-                        <textarea id="msg"></textarea>
-                <div>
-            <br/>        
-                </div>
-                <div class="button">
-                    <button type="submit">Enviar sua mensagem</button>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>
+                    <div>
+                        <label for="Cpf">CPF:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>
+                    <div>
+                        <label for="endereço">endereço:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>    
+                    <div>
+                        <label for="rua">rua:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>    
+                    <div>
+                        <label for="bairro">bairro:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>    
+                    <div>
+                        <label for="numero">numero:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>    
+                    <div>
+                        <label for="referencia">referencia:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>   
+                    <div>
+                        <label for="">cep:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>    
+                    <div>
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="name" />
+                    </div>
+                <br/>   
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" />
+                    </div>
+                <br/>    
+                        <div>
+                            <label for="msg">Mensagem:</label>
+                            <textarea id="msg"></textarea>
+                    <div>
+                <br/>        
+                    </div>
+                    <div class="button">
+                        <button type="submit">Enviar sua mensagem</button>
                 </div>
 
             </form>

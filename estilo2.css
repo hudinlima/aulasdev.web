@@ -1,0 +1,17 @@
+body {
+font-family: helvetica,sans-serif;
+}
+
+#wrap{
+width: 960px;
+margin: auto;
+background: #e3e3e3;
+}
+
+body h1{
+    padding: 10px 20px;
+}
+
+body p{
+    padding: 10px 20px;
+}
